@@ -1,15 +1,15 @@
 {
-  "name": "zeiterfassung_app",
+  "name": "nothingToTrash",
   "version": "1.0.0",
   "description": "",
-  "main": "./backend/server.js",
+  "main": "./server/index.js",
   "type": "module",
   "scripts": {
-    "dev:server": "npm run dev --prefix backend",
-    "dev:vite": "npm run dev --prefix frontend",
+    "dev:server": "npm run dev --prefix server",
+    "dev:vite": "npm run dev --prefix client",
     "dev": "concurrently \"npm:dev:*\"",
-    "start": "npm run build --prefix frontend && npm start --prefix backend",
-    "postinstall": "npm i --prefix backend && npm i --prefix frontend"
+    "start": "npm run build --prefix client && npm start --prefix server",
+    "postinstall": "npm i --prefix server && npm i --prefix client"
   },
   "keywords": [],
   "author": "",
