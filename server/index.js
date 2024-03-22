@@ -23,6 +23,10 @@ app.use(express.json({ limit: "16mb" }));
 app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: false }));
 
+app.get("/", ( _, res) => {
+  res.send("<h6>..it works entirely fuckin' well..:)</h6>")
+})
+
 app.post("/api/users/register", (req, res) => {
   const username = req.body.username;
   const email = req.body.email;
