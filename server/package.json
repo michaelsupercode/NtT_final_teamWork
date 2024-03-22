@@ -4,10 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node --watch .",
-    "start": "node .",
-    "debugging": "node --inspect-brk .",
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  
   },
   "keywords": [],
   "author": "",
