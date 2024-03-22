@@ -16,7 +16,7 @@ const FooterEnd = () => {
       <div>
         <p>COPYRIGHT nothingtotrash 2021 - 2024 TERMS & CONDITIONS PRIVACY POLICY</p>
       </div>
-      <div><h6>2024_rebuild_michaelsuperCode_revised_&#9825_version</h6></div>
+      <div><h6>2024_rebuild_michaelsuperCode_revised_♡_version</h6></div>
     </div>
   );
 };
